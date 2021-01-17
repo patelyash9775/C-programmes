@@ -97,7 +97,7 @@ void deposit()
     gets(p);
     if(strcmp(n,b.name) && strcmp(p,b.password))
     {
-        printf("\Your password and username are wrong.");
+        printf("\nYour password and username are wrong.");
     }
     else if(strcmp(n,b.name))
     {
@@ -127,7 +127,7 @@ void withdraw()
     gets(p);
     if(strcmp(n,b.name) && strcmp(p,b.password))
     {
-        printf("\Your password and username are wrong.");
+        printf("\nYour password and username are wrong.");
     }
     else if(strcmp(n,b.name))
     {
@@ -166,7 +166,7 @@ void checkbalance()
     gets(p);
     if(strcmp(n,b.name) && strcmp(p,b.password))
     {
-        printf("\Your password and username are wrong.");
+        printf("\nYour password and username are wrong.");
     }
     else if(strcmp(n,b.name))
     {
